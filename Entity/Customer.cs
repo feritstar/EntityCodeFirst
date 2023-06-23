@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 
 namespace EntityCodeFirst.Entity
 {
-    public class Category
+    public class Customer
     {
         [Key]
-        public int CategoryId { get; set; }
-        public string CategoryName { get; set; }
-        public ICollection<Product> Products { get; set; }
+        public int CustomerId { get; set; }
+        public string CustomerName { get; set; }
+        public string CustomerSurName { get; set; }
+        public string CustomerCity { get; set; }
     }
 }

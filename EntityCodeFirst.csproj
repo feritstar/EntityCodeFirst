@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Entity\Category.cs" />
     <Compile Include="Entity\Context.cs" />
+    <Compile Include="Entity\Customer.cs" />
     <Compile Include="Entity\Product.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -70,6 +71,14 @@
     <Compile Include="Migrations\202306211944308_InitialCreate.designer.cs">
       <DependentUpon>202306211944308_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202306232034578_CreateCustomersTable.cs" />
+    <Compile Include="Migrations\202306232034578_CreateCustomersTable.designer.cs">
+      <DependentUpon>202306232034578_CreateCustomersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202306232118062_CreateCustomerCityColumnInCustomersTable.cs" />
+    <Compile Include="Migrations\202306232118062_CreateCustomerCityColumnInCustomersTable.designer.cs">
+      <DependentUpon>202306232118062_CreateCustomerCityColumnInCustomersTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,6 +87,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202306211944308_InitialCreate.resx">
       <DependentUpon>202306211944308_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202306232034578_CreateCustomersTable.resx">
+      <DependentUpon>202306232034578_CreateCustomersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202306232118062_CreateCustomerCityColumnInCustomersTable.resx">
+      <DependentUpon>202306232118062_CreateCustomerCityColumnInCustomersTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
