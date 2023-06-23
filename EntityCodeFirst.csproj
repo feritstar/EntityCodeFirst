@@ -79,6 +79,10 @@
     <Compile Include="Migrations\202306232118062_CreateCustomerCityColumnInCustomersTable.designer.cs">
       <DependentUpon>202306232118062_CreateCustomerCityColumnInCustomersTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202306232151450_RenameCustomerSurNameToCustomerTitleInCustomerTable.cs" />
+    <Compile Include="Migrations\202306232151450_RenameCustomerSurNameToCustomerTitleInCustomerTable.designer.cs">
+      <DependentUpon>202306232151450_RenameCustomerSurNameToCustomerTitleInCustomerTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,6 +97,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202306232118062_CreateCustomerCityColumnInCustomersTable.resx">
       <DependentUpon>202306232118062_CreateCustomerCityColumnInCustomersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202306232151450_RenameCustomerSurNameToCustomerTitleInCustomerTable.resx">
+      <DependentUpon>202306232151450_RenameCustomerSurNameToCustomerTitleInCustomerTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -12,7 +12,7 @@ namespace EntityCodeFirst.Entity
         [Key]
         public int CustomerId { get; set; }
         public string CustomerName { get; set; }
-        public string CustomerSurName { get; set; }
+        public string CustomerTitle { get; set; }
         public string CustomerCity { get; set; }
     }
 }
